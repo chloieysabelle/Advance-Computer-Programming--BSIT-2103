@@ -1,5 +1,4 @@
-n=0
-while n<7:
-    print (n)
-    n+=1
- 
+name = input("Please enter your name: ")
+
+for _ in range(4):
+    print(name)
